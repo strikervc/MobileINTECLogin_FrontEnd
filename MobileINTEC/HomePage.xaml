@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileINTEC.HomePage"
+             xmlns:pages="clr-namespace:MobileINTEC">
+    <MasterDetailPage.Master>
+        <ContentPage Title="Back">
+            <StackLayout VerticalOptions="Center">
+                <Button Text="Home" BackgroundColor="Red" Margin="25,0,25,0" TextColor="White"/>
+                <Button Text="Option 1"  BackgroundColor="Red" Margin="25,0,25,0" TextColor="White"/>
+                <Button Text="Option 2"  BackgroundColor="Red" Margin="25,0,25,0" TextColor="White"/>
+                <Button Text="YOU ALREADY SEEN THE EXTRA UI"  BackgroundColor="Red" Margin="25,0,25,0" TextColor="White"/>
+            </StackLayout>
+        </ContentPage>
+
+    </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage BarBackgroundColor="Red">
+            <x:Arguments>
+                <ContentPage Title="Menu">
+                    <ScrollView>
+                        <Grid RowDefinitions ="Auto, Auto, Auto, Auto, Auto" ColumnDefinitions="Auto" Padding="20" HorizontalOptions="CenterAndExpand">
+                            <Label x:Name ="Course" Text="FEATURED PATH NOTES" Grid.Row="0" TextColor="Gray" FontSize="16" FontAttributes="Bold"/>
+                            <Label x:Name ="Body" Text="Here you will be able to found some important notes of the new 11.4 path of League of Legends!" Grid.Row ="1" TextColor ="Gray" FontSize="Body"/>
+                            <Label x:Name ="Cap" Text="ON THE GO" Grid.Row="3" TextColor="Gray" FontSize="16" FontAttributes="Bold"  Margin="0, 20, 0, 10"/>
+                            <Frame Grid.Row="2" BackgroundColor="White" >
+                                <StackLayout>
+                                    <Image Source="unnamed.jpg" Grid.Row="2" />
+                                </StackLayout>
+                            </Frame>
+                            <Grid RowDefinitions ="*, *, *" ColumnDefinitions="170,170" Grid.Row="4" HorizontalOptions="CenterAndExpand">
+                                <Button Text="Champions" Grid.Row="0" TextColor="White" Grid.Column="0" BackgroundColor="MediumAquamarine"/>
+                                <Button Text="Runes" Grid.Row="0" TextColor="White" Grid.Column="1" BackgroundColor="CadetBlue"/>
+                                <Button Text="Spells" Grid.Row="1" TextColor="White" Grid.Column="0" BackgroundColor="Turquoise"/>
+                                <Button Text="Objects" Grid.Row="1" TextColor="White" Grid.Column="1" BackgroundColor="SlateGray"/>
+                                <Button Text="Buffs" Grid.Row="2" TextColor="White" Grid.Column="0" BackgroundColor="BlueViolet"/>
+                                <Button Text="Nerfs" Grid.Row="2" TextColor="White" Grid.Column="1" BackgroundColor="Coral"/>
+                            </Grid>
+                         </Grid>
+                    </ScrollView>
+                </ContentPage>
+            </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
+</MasterDetailPage>

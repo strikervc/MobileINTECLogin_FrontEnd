@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileINTEC.LoginPage"
+             BarBackgroundColor="Red"
+             NavigationPage.HasNavigationBar="False">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Login">
+        <Grid RowDefinitions ="Auto, Auto, Auto, Auto, Auto" ColumnDefinitions="Auto" Padding="30" VerticalOptions="Center" HorizontalOptions="CenterAndExpand">
+            <Image Source="logo.png" Grid.Row="0" Margin="60, 0, 60, 10"/>
+            <Entry x:Name="User" Placeholder="Email" Grid.Row="1" ClearButtonVisibility="WhileEditing" PlaceholderColor="Gray" TextColor="Gray" />
+            <Entry x:Name="Password" Placeholder="Password" Grid.Row="2"  IsPassword="true" ClearButtonVisibility="WhileEditing" PlaceholderColor="Gray" TextColor="Gray" />
+            <Button x:Name="Login" Text="LogIn" Grid.Row="3" TextColor="White" WidthRequest="100" BackgroundColor="Red" Clicked="LogInUser"/>
+            <Button x:Name="Register" Text="Register" Grid.Row="4" TextColor="White" WidthRequest="100" BackgroundColor="Red" Clicked="GoToSign"/>
+        </Grid>
+    </ContentPage>
+    <ContentPage x:Name="Home" Title="Home">
+    </ContentPage>
+</TabbedPage>
+    
