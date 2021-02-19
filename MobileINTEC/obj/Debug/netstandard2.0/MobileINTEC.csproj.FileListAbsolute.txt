@@ -1,0 +1,16 @@
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\bin\Debug\netstandard2.0\MobileINTEC.deps.json
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\bin\Debug\netstandard2.0\MobileINTEC.dll
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\bin\Debug\netstandard2.0\ref\MobileINTEC.dll
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\bin\Debug\netstandard2.0\MobileINTEC.pdb
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\MobileINTEC.csprojAssemblyReference.cache
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\LoginPage.xaml.g.cs
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\MobileINTEC.AssemblyInfoInputs.cache
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\MobileINTEC.AssemblyInfo.cs
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\MobileINTEC.csproj.CoreCompileInputs.cache
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\MobileINTEC.dll
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\ref\MobileINTEC.dll
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\MobileINTEC.pdb
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\HomePage.xaml.g.cs
+C:\Users\KlayG\source\repos\MobileINTEC\MobileINTEC\obj\Debug\netstandard2.0\RegPage.xaml.g.cs
